@@ -31,9 +31,9 @@ function AboutPage() {
       </div>
       <Title title={'Services'} span={'Services'} />
       <div className="services-container">
-        <ServicesSection image={design} title={'Web Design'} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} />
-        <ServicesSection image={game} title={'Web Design'} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} />
-        <ServicesSection image={intelligence} title={'Web Design'} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'} />
+        <ServicesSection image={intelligence} title={'Web Development'} text={'Full Stack Development with Spring Boot, PHP, React Js etc.'} />
+        <ServicesSection image={design} title={'Web Design'} text={'UI / UX Design, prototyping and Wireframing'} />
+        <ServicesSection image={game} title={'Game Development'} text={'I develop simple games using JavaScript'} />
       </div>
     </div>
   )
