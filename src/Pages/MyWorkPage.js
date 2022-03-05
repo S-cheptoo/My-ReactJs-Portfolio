@@ -2,7 +2,7 @@ import React from 'react';
 import Categories from '../components/Categories';
 import MenuItems from '../components/MenuItems';
 import Title from '../components/Title';
-import portfolios from '../components/allportfolios';
+import portfolios from '../components/allPortfolios';
 import { useState } from 'react';
 
 const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
@@ -23,9 +23,9 @@ function MyWorkPage() {
     }
 
     return (
-        <div className="PortfolioPage">
+        <div className="MyWorkPage">
             <div className="title">
-                <Title title={'Portfolios'} span={'portfolios'} />
+                <Title title={'My Work'} span={'My Work'} />
             </div>
             <div className="portfolios-data">
                 <Categories filter={filter} categories={categories} />

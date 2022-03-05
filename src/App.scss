@@ -6,7 +6,7 @@
 @import './Styles/skills';
 @import './Styles/services';
 @import './Styles/contact';
-@import './Styles/works';
+@import './Styles/portfolios';
 
 * {
     padding: 0;
@@ -33,4 +33,23 @@ body {
 
 span {
     color: #037FFF;
+}
+
+@media screen and (max-width: 411px){
+    html{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 700px){
+    html{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width: 480px){
+    h2{
+        font-size: 70%;
+    }
+    h3{
+        font-size: 70%;
+    }
 }

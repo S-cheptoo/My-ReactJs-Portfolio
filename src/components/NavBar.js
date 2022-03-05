@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from "../img/photo.jpg";
+import photo from "../img/my-prof.jpg";
 import {NavLink} from "react-router-dom";
 
 function NavBar() {
